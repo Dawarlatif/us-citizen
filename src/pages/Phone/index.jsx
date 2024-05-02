@@ -15,8 +15,6 @@ const PhonePage = () => {
   const [blackListAllianceData, setBlackListAllianceData] = useState(null);
   const [error, setError] = useState(null);
 
-  console.log({ fastPeopleData, blackListAllianceData });
-
   const fetchData = async () => {
     try {
       const [fastPeopleResponse, blacklistResponse] = await Promise.all([

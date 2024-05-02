@@ -1,4 +1,3 @@
-import Layout from "./layout";
 import RoutesMain from "./routes";
 
 function App() {

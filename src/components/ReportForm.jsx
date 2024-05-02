@@ -41,7 +41,7 @@ const ReportForm = () => {
             src={reporticon}
             alt="report-icon"
           /> */}
-          <input type="submit" id="report-btn" role="button" value="Report" />
+          <input type="submit" id="report-btn" value="Report" />
           {/* <img
             className="loader-icon"
             id="loader-icon"
