@@ -12,6 +12,7 @@ import {
 const PhonePage = () => {
   const [query, setQuery] = useState("");
   const [fastPeopleData, setFastPeopleData] = useState(null);
+  console.log("fastPeopleSearchData", fastPeopleData);
   const [blackListAllianceData, setBlackListAllianceData] = useState(null);
   const [error, setError] = useState(null);
 
